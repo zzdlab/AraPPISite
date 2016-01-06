@@ -8,17 +8,17 @@ Explanation/Example
 
 The classification_of_protein-protein_interactions.xlsx file contains four sheets: Experiment, HMPC, PRISM and DDI_and_DMI. You can find the protein-protein interactions whose complex structures are experimentally determined in the Experiment sheet; the protein-protein interactions whose complex structures are predicted using Homology Modeling of Protein Complex (HMPC) in the HMPC sheet; the protein-protein interactions whose complex structures are predicted using Protein Interactions by Structural Matching (PRISM) in the PRISM sheet; and the protein-protein interactions whose domain-domain interaction (DDI) and domain-motif interaction (DMI) are annotated in the DDI_and_DMI sheet.
 
-* protein_complex_structures folder
+* experiment.zip/HMPC.zip/PRISM.zip
 
-The protein_complex_structures folder contains the PDB files of 3,050 protein complex structures in AraPPISite. The PDB files are named using two TAIR identifiers of an interacting protein pair. In a PDB file, chain A represents the first interacting protein and chain B represents the second interacting protein.
+The experiment.zip contains the PDB files of 27 experimentally determined complex structures. The HMPC.zip and PRISM.zip contain the PDB files of 1,677 and 1,346 predicted complex structures by using HMPC and PRISM in AraPPISite, respectively. The PDB files are named using two TAIR identifiers of an interacting protein pair. In a PDB file, chain A represents the first interacting protein and chain B represents the second interacting protein.
 
 For example:
 File name: AT1G01040-AT1G09700.pdb 
 Chain A represents AT1G01040 and chain B represents AT1G09700 in the PDB file.
 
-* protein_interaction_sites folder
+* protein_interaction_sites.zip
 
-The protein_interaction_sites folder contains the protein interaction sites for 3,050 protein-protein interactions whose protein complex structures are stored in the folder of protein complex structures. The files are named using two TAIR identifiers of an interacting protein pair. There are six columns in a file. Each line shows an interacting residue pair.
+The protein_interaction_sites.zip contains the protein interaction sites for 3,050 protein-protein interactions whose protein complex structures are stored in the folder of protein complex structures. The files are named using two TAIR identifiers of an interacting protein pair. There are six columns in a file. Each line shows an interacting residue pair.
 
 For example:
 File name: AT1G01040-AT1G09700.txt
@@ -30,9 +30,9 @@ Column 4: AT1G09700 (The TAIR identifier of the second interacting protein)
 Column 5: GLN (The name of the other interacting residue from AT1G09700)
 Column 6: 111 (The residue sequence number of the interacting residue in the Column 5)
 
-* domain-domain_and_domain-motif_interaction_annotations folder
+* domain-domain_and_domain-motif_interaction_annotations.zip
 
-The domain-domain_and_domain-motif_interaction_annotations folder contains all domain-domain and domain-motif interactions for 4,286 PPIs whose protein complex structures are unknown in AraPPISite. The files are named using two TAIR identifiers of an interacting protein pair. There are four columns in a file. Each line shows a domain-domain/motif interaction.
+The domain-domain_and_domain-motif_interaction_annotations.zip contains all domain-domain and domain-motif interactions for 4,286 PPIs whose protein complex structures are unknown in AraPPISite. The files are named using two TAIR identifiers of an interacting protein pair. There are four columns in a file. Each line shows a domain-domain/motif interaction.
 
 For example:
 File name: AT1G01040-AT3G20550.txt
