@@ -42,7 +42,7 @@ Column 2: LIG_FHA_1 (The name of one interacting motif from AT1G01040)
 Column 3: PF00498 (The name of the other interacting domain from AT3G20550)
 Column 4: 89-95,352-358,369-375,644-650,723-729,810-816,920-926,1160-1166,1303-1309,1355-1361,1608-1614,1758-1764,1864-1870 (The sequence range of the interacting motif in the Column 2)
 Column 5: 219-299 (The sequence range of the interacting domain in the Column 3)
-=======================
+
 Hong Li, Shiping Yang, Chuan Wang, Yuan Zhou, and Ziding Zhang. (2015) AraPPISite: a database of fine-grained protein-protein interaction site annotations for Arabidopsis thaliana. http://systbio.cau.edu.cn/arappisite/.
 
 Corresponding authors: Yuan Zhou (soontide6825@163.com) and Ziding Zhang (zidingzhang@cau.edu.cn)
